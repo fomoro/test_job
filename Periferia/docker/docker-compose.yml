@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # 1. Base de Datos (PostgreSQL)
+  db:
+    image: postgres:15-alpine
+    container_name: ccs_postgres_local
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: ccs_db
+    ports:
+      - "5433:5432" # Mapeo al 5433 para evitar conflictos con tu Windows
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # MAGIA AQUÍ: scripts SQL ejecutados automáticamente al iniciar Postgres
+      # Usamos "../" porque estamos dentro de la carpeta docker
+      - ../scripts/database:/docker-entrypoint-initdb.d
+
+  # 2. Redis (Cache)
+  redis:
+    image: redis:alpine
+    container_name: ccs_redis_local
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+
+volumes:
+  pgdata:
+  redisdata:

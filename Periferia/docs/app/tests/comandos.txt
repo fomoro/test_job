@@ -1,0 +1,26 @@
+# Instalar dependencias de testing
+pip install pytest pytest-asyncio pytest-cov pytest-mock
+
+# Ejecutar todos los tests
+pytest tests/ -v
+
+# Solo tests unitarios (rápidos)
+pytest tests/unit/ -v --tb=short
+
+# Solo tests de integración
+pytest tests/integration/ -v
+
+# Con cobertura
+pytest tests/ --cov=app --cov-report=term-missing --cov-report=html
+
+# Saltar tests lentos
+pytest tests/ --skip-slow -v
+
+# Saltar tests de integración
+pytest tests/ --skip-integration -v
+
+# Ejecutar tests específicos
+pytest tests/unit/test_models.py -k "test_signal" -v
+
+# Con reporte HTML de cobertura
+pytest --cov=app --cov-report=html

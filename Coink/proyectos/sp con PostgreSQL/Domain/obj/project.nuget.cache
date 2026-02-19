@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LUAYwX6BDj4=",
+  "success": true,
+  "projectFilePath": "C:\\source\\test\\code\\Nueva carpeta\\Coink\\proyectos\\sp con PostgreSQL\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.7.0\\fluentvalidation.11.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

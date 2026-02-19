@@ -1,0 +1,14 @@
+ El volumen de la unidad C es OS
+ El n£mero de serie del volumen es: 0A1F-5105
+
+ Directorio de C:\Users\user\Downloads\Pruebas\Oncredit\nodejs-evaluacion\src
+
+03/02/2025  12:21 p.ÿm.    <DIR>          .
+03/02/2025  07:49 a.ÿm.    <DIR>          ..
+03/02/2025  07:31 a.ÿm.             1.637 index.js
+03/02/2025  12:21 p.ÿm.                 0 lista.txt
+03/02/2025  07:29 a.ÿm.    <DIR>          patterns
+03/02/2025  07:29 a.ÿm.    <DIR>          strategies
+03/02/2025  07:28 a.ÿm.    <DIR>          workers
+               2 archivos          1.637 bytes
+               5 dirs  891.953.438.720 bytes libres

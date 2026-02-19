@@ -1,0 +1,7 @@
+<nav *ngIf="isAuthenticated()" class="navbar navbar-light bg-light">
+  <a routerLink="/products" class="btn btn-link">Lista de Productos</a>
+  <a routerLink="/add-product" class="btn btn-link">Agregar Producto</a>
+  <button class="btn btn-link" (click)="logout()">Cerrar sesión</button>
+</nav>
+
+<router-outlet></router-outlet>

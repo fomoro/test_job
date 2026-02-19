@@ -1,0 +1,4 @@
+1. mvp Python (readme.md, features.md y teating_guide.md)
+2. postman endpoint
+4. cree una base de datos de PostgreSQL en neondb
+3. pase el código de Python a java 

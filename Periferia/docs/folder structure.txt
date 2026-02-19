@@ -1,0 +1,66 @@
+📁 periferia-project-ccs/
+│
+├── 📁 app/                                       # 🏗️  PRODUCTO FINAL (Clean Architecture)
+│   ├── 📄 .env                                   # ⚙️  Variables entorno PRODUCCIÓN
+│   ├── 📄 requirements.txt                       # 📦 Dependencias específicas producción
+│   ├── 📁 api/                                   # 🎮 Controladores FastAPI (por implementar)
+│   ├── 📁 application/                           # ⚡ Casos de uso/reglas negocio (por implementar)
+│   ├── 📁 domain/                                # 🎯 Entidades/core business (por implementar)
+│   └── 📁 infrastructure/                        # 🗄️  Implementaciones PostgreSQL/Redis (por implementar)
+│        
+├── 📁 demos/                                     # 🔬 TODOS LOS DEMOS/POCs (ENTREGA PRINCIPAL)
+│   │        
+│   ├── 📁 01_api-redis-postgres/                 # 🎯 POC ACTUAL - Validación arquitectura cloud
+│   │   ├── 📄 .env                               # 🔑 Credenciales NeonDB + Upstash (cloud real)
+│   │   ├── 📄 main.py                            # 🚀 API FastAPI optimizada para 500 RPS
+│   │   ├── 📄 requirements.txt                   # 🧩 Dependencias: fastapi, asyncpg, redis, dotenv
+│   │   └── 📄 DEPLOYMENT.md                      # 📋 Instrucciones ejecución paso a paso (CLOUD)
+│   │           
+│   └── 📁 02_docker-localstack/                  # 🐳 DEMO ALTERNATIVO - Todo local con Docker
+│       ├── 📄 .env                               # 🔧 Variables localhost (PostgreSQL+Redis locales)
+│       ├── 📄 docker-compose.yml                 # 🐳 Orquestación contenedores
+│       ├── 📄 Dockerfile                         # 🐋 Imagen Python/FASTAPI
+│       ├── 📄 main.py                            # 🚀 Mismo código API (copy de 01_)
+│       ├── 📄 requirements.txt                   # 🧩 Mismas dependencias
+│       └── 📄 DEPLOYMENT_DOCKER.md               # 📋 Instrucciones ejecución con Docker
+│        
+├── 📁 docs/                                      # 📚 DOCUMENTACIÓN TÉCNICA COMPLETA
+│   ├── 📄 folder structure.md                    # 🗂️ Este archivo - Estructura proyecto
+│   │        
+│   ├── 📁 demo/                                  # 📖 Documentación ESPECÍFICA por demo
+│   │   ├── 📁 01_api-redis-postgres/             # 🎯 Doc POC principal (cloud)
+│   │   │   ├── 📄 Overview.md                    # 🎪 Contexto + Objetivos + Métricas validación
+│   │   │   └── 📁 architecture/                  # 🏗️ Decisiones arquitectónicas
+│   │   │       ├── 📄 Architecture_Decisions.md  # 💡 problemas críticos + soluciones
+│   │   │       └── 📄 Components.md              # 📐 Diagramas componentes arquitectura
+│   │   │            
+│   │   └── 📁 02_docker-localstack/              # 🐳 Doc demo Docker (local)
+│   │       ├── 📄 Overview.md                    # 🎪 Contexto específico demo Docker
+│   │       └── 📁 architecture/                  # 🏗️ Arquitectura contenerizada
+│   │           └── 📄 Components.md              # 📐 Diagramas específicos Docker
+│   │
+│   ├── 📁 database/                              # 🗄️ Documentación base de datos
+│   │   └── 📄 README_DATABASE.md                 # 📊 Esquema, particiones, índices, optimizaciones
+│   │            
+│   └── 📁 operations/                            # ⚙️  Documentación operaciones (monitoreo, logs, etc.)
+│            
+├── 📁 performance/                               # 🧪 PRUEBAS DE CARGA Y VALIDACIÓN (COMPARTIDAS)
+│   ├── 📄 generar_carga.py                       # 🔥 Prueba principal: 500 RPS × 2 minutos
+│   ├── 📄 monitor_metrics.py                     # 📊 Dashboard monitoreo tiempo real
+│   └── 📄 test_emergencia.py                     # 🚨 Pruebas específicas botón pánico
+│            
+├── 📁 scripts/                                   # 🛠️ SCRIPTS AUTOMATIZACIÓN (COMPARTIDOS)
+│   ├── 📁 database/                              # 🗄️ Scripts SQL base de datos
+│   │   ├── 📄 00_drop_all.sql                    # 🗑️  Limpieza completa BD (desarrollo)
+│   │   ├── 📄 01_schema_complete.sql             # 🏗️ Esquema particionado + índices optimizados
+│   │   ├── 📄 02_seed_master_data.sql            # 🌱 Datos maestros: vehículos, reglas, dueños
+│   │   └── 📄 03_seed_signals.sql                # 📡 Datos prueba señales (opcional)
+│   │           
+│   ├── 📁 deployment/                            # 🚀 Scripts despliegue (futuro - CI/CD)
+│   ├── 📁 monitoring/                            # 📈 Scripts monitoreo (alertas, métricas)
+│   └── 📁 ps/                                    # 🪟 Scripts PowerShell (Windows)
+│       └── 📄 setup_poc_escalabilidad.ps1        # ⚡ Setup entorno Windows
+│
+├── 📁 docker/                                    # 🐳 Configuración Docker general (plantillas, configs)
+├── 📁 github/                                    # 🐙 GitHub workflows, actions, templates
+└── 📁 tests/                                     # ✅ Pruebas unitarias/integración (futuro desarrollo)
