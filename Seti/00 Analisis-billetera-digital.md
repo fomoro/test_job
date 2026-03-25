@@ -1,4 +1,5 @@
-# 00 - Análisis Técnico: Billetera Digital de Alto Volumen (Versión Corregida)
+# 00 - Análisis Técnico: Billetera Digital de Alto Volumen 
+
 
 **Autor:** Jonathan Wolfan Moreno Rodriguez 
 **Fecha:** Marzo 2026  
