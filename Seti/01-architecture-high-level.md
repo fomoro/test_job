@@ -88,7 +88,7 @@ graph TD
 ---
 
 **Documentos Relacionados:**
-- `02-persistence-design.md` → Modelo de datos, particionamiento
-- `03-interbank-transfer-flow.md` → Flujo Saga detallado
-- `04-tradeoffs-analysis.md` → ADRs completos
-- `05-deployment-security-observability.md` → CI/CD, seguridad
+- [02-persistence-design.md](./02-persistence-design.md) → Modelo de datos, particionamiento
+- [03-interbank-transfer-flow.md](./03-interbank-transfer-flow.md) → Flujo Saga detallado
+- [04-tradeoffs-analysis.md](./04-tradeoffs-analysis.md) → ADRs completos
+- [05-deployment-security-observability.md](./05-deployment-security-observability.md) → CI/CD, seguridad

@@ -161,7 +161,7 @@ sequenceDiagram
 ---
 
 **Documentos Relacionados:**
-- `01-architecture-high-level.md` → Componentes y patrones
-- `02-persistence-design.md` → Outbox, Redis idempotencia, consistencia
-- `04-tradeoffs-analysis.md` → ADRs completos
-- `05-deployment-security-observability.md` → Monitoreo, alertas
+- [01-architecture-high-level.md](./01-architecture-high-level.md) → omponentes, patrones, TTL alineado (5s)
+- [02-persistence-design.md](./02-persistence-design.md) → Modelo de datos, particionamiento
+- [04-tradeoffs-analysis.md](./04-tradeoffs-analysis.md) → ADRs completos
+- [05-deployment-security-observability.md](./05-deployment-security-observability.md) → CI/CD, seguridad

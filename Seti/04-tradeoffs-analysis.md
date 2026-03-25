@@ -124,7 +124,7 @@ Cada decisión arquitectónica implica un balance. Este documento registra expl�
 ---
 
 **Documentos Relacionados:**
-- `01-architecture-high-level.md` → Componentes, patrones, TTL
-- `02-persistence-design.md` → Outbox, particionamiento, locking
-- `03-interbank-transfer-flow.md` → Saga, Circuit Breaker, retries
-- `05-deployment-security-observability.md` → CI/CD, seguridad, monitoreo
+- [01-architecture-high-level.md](./01-architecture-high-level.md) → omponentes, patrones, TTL alineado (5s)
+- [02-persistence-design.md](./02-persistence-design.md) → Modelo de datos, particionamiento
+- [03-interbank-transfer-flow.md](./03-interbank-transfer-flow.md) → Flujo Saga detallado
+- [05-deployment-security-observability.md](./05-deployment-security-observability.md) → CI/CD, seguridad

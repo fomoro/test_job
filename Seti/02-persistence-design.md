@@ -144,7 +144,7 @@ sequenceDiagram
 ---
 
 **Documentos Relacionados:**
-- `01-architecture-high-level.md` → Componentes, patrones, TTL alineado (5s)
-- `03-interbank-transfer-flow.md` → Flujo Saga detallado
-- `04-tradeoffs-analysis.md` → ADRs completos
-- `05-deployment-security-observability.md` → CI/CD, seguridad
+- [01-architecture-high-level.md](./01-architecture-high-level.md) → omponentes, patrones, TTL alineado (5s)
+- [03-interbank-transfer-flow.md](./03-interbank-transfer-flow.md) → Flujo Saga detallado
+- [04-tradeoffs-analysis.md](./04-tradeoffs-analysis.md) → ADRs completos
+- [05-deployment-security-observability.md](./05-deployment-security-observability.md) → CI/CD, seguridad

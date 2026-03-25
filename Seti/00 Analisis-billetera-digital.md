@@ -148,8 +148,8 @@ Una empresa fintech planea lanzar una **billetera digital** para el mercado lati
 ---
 
 **Documentos Relacionados:**
-- `01-architecture-high-level.md` → Diagrama lógico, componentes, patrones
-- `02-persistence-design.md` → Modelo de datos, outbox, particionamiento
-- `03-interbank-transfer-flow.md` → Flujo Saga, estados, compensaciones
-- `04-tradeoffs-analysis.md` → ADRs detallados
-- `05-deployment-security-observability.md` → CI/CD, seguridad, monitoreo
+- [01-architecture-high-level.md](./01-architecture-high-level.md) → omponentes, patrones, TTL alineado (5s)
+- [02-persistence-design.md](./02-persistence-design.md) → Modelo de datos, particionamiento
+- [03-interbank-transfer-flow.md](./03-interbank-transfer-flow.md) → Flujo Saga detallado
+- [04-tradeoffs-analysis.md](./04-tradeoffs-analysis.md) → ADRs completos
+- [05-deployment-security-observability.md](./05-deployment-security-observability.md) → CI/CD, seguridad
