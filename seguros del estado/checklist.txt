@@ -1,0 +1,21 @@
+Estado general del proyecto
+Documento	Estado
+EL QUÉ (plantilla)	✅ Completada
+EL QUÉ (desarrollo Seguros del Estado)	✅ Completado
+Guía de anexos	✅ Completada
+Anexos (desarrollo visual)	⏳ Pendiente
+EL CÓMO (plantilla)	⏳ Pendiente
+EL CÓMO (desarrollo Seguros del Estado)	⏳ Pendiente
+
+
+
+## Estado de los anexos
+
+| Anexo | Estado |
+|:---|:---|
+| A1. Mapa de Capacidades | ✅ Completado |
+| A2. Inventario de Aplicaciones | ✅ Completado |
+| A3. Topología Cloud y Datos | ⏳ Pendiente |
+| A4. Diagrama de Espagueti | ⏳ Pendiente |
+
+---
