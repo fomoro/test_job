@@ -1,0 +1,48 @@
+00 - Análisis / entendimiento del problema
+  - Contexto de negocio
+  - Requisitos funcionales
+  - Requisitos no funcionales
+  - Volúmenes y picos
+  - Entregables solicitados
+  - Decisiones clave resumidas
+
+01 - Arquitectura de alto nivel
+  - Diagrama lógico
+  - Componentes principales
+  - Responsabilidades por componente
+  - Patrones arquitectónicos aplicados
+  - Matriz de consistencia
+  - Trade-offs principales
+
+02 - Diseño de persistencia
+  - Estrategia de datos
+  - Modelo transaccional
+  - Modelo de lectura / historial
+  - Caché
+  - Particionamiento
+  - Consistencia por operación
+  - Recuperación / RPO / RTO
+
+03 - Flujo crítico detallado
+  - Estados del proceso
+  - Diagrama de secuencia
+  - Manejo de errores
+  - Idempotencia
+  - Retries, timeouts, circuit breaker
+  - Compensaciones
+
+04 - Trade-offs / ADRs
+  - Decisión adoptada
+  - Alternativas descartadas
+  - Qué se gana
+  - Qué se sacrifica
+  - Justificación
+
+05 - Despliegue, seguridad y observabilidad
+  - Topología de red
+  - Seguridad por capas
+  - CI/CD
+  - Métricas, logs y trazas
+  - Alertas
+  - Escalamiento
+  - Disponibilidad
